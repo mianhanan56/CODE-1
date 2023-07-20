@@ -1,0 +1,554 @@
+@import url( https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+@media screen and (max-width:700px) {
+    body h1,h2,h3{
+        font-size: 30px;
+    }
+}
+
+
+
+
+.navigation{
+    border: 1px solid lightgray;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+    font-size: 16px;
+    color:#4c88f7;
+    font-weight: bold;
+   
+}
+.Courses{
+    display: flex;
+   gap: 10px;
+    align-items: center;
+   
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    
+    padding: 10px;
+    background-color: rgb(247, 248, 250);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.get a{
+    padding: 10px;
+    color:#4c88f7;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .Courses{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .get{
+        display: none;
+        
+    }
+}
+
+
+
+
+
+.fl{
+    display: flex;
+    align-items: center;
+}
+.txt {
+   margin:18px 0px 18px 20px; 
+   
+}
+.txt p{
+    margin: 20px 0px;
+    font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+}
+
+.btn button{
+     background-color:#1865f2;
+     color: white;
+     margin: 20px 0px;
+     padding: 10px 16px;
+     font-size: 16px;
+     font-weight: bold;
+     border: none;
+     border-radius: 5px;
+     width: 230px;
+}
+
+@media screen and (max-width:768px){
+   .fl{
+    flex-direction: column;
+    width: 100%;
+   }
+   .txt{
+    display: flex; 
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+
+
+.aca{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+   margin: 30px 0px 80px 0px;
+   font-family: 'Source Serif Pro', 'Noto Serif', serif;
+   font-size: 20px;
+   font-weight: bold;
+   word-spacing: 2px;
+}
+
+.rpaint{
+    display: flex;
+   
+}
+.whole{
+    font-family: 'Source Serif Pro', 'Noto Serif', serif;
+    /* font-size: 25px; */
+    margin: 0px 30px;
+    text-align: center;
+}
+.para{
+    margin-top: 20px;
+    font-family:  'Noto Sans', sans-serif ;
+    line-height: 25px;
+}
+
+@media screen and (max-width:700px) {
+   .rpaint{
+     flex-direction: column;
+     width: 100%;
+    text-align: center;
+   }
+    .para{
+          padding: 0px 30px;
+   }
+   .whole{
+    margin: 40px auto;
+   }
+}
+
+
+
+
+.ts{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px ;
+  
+}
+.hea{
+    margin-bottom: 37px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.btn4 button{
+    padding: 15px;
+    background-color: #1865f2;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 37px;
+}
+.teach1{
+    margin: 37px 0px 0px 0px;
+}
+
+
+@media screen and (max-width:992px) {
+    .ts{
+        flex-direction: column;
+     
+        text-align: center;  
+        padding: 20px 40px;
+        
+
+        
+    }
+    .img9{
+        margin-left: 0px;
+    }
+    .img9 img{
+     width:300px ;
+     height: 300px;
+     
+     margin-top: 80px;
+     
+    }
+  
+   
+    .img5 img{
+        width:430px ;
+        height: 380px;
+        
+    }
+    .img7 img{
+        width: 450px;
+        height: 400px;
+    }
+
+    
+   
+}
+
+
+
+
+.review{
+    background-color: lightgrey;
+    width: 100%;
+    
+    /* border: 1px solid black; */
+}
+
+.txt5{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    width: 1100px;
+    width: 100%;
+    margin: 0px ;
+    padding: 150px 0px;
+
+}
+.tx5 p{
+    font-size: 40px;
+    font-family: 'Source Serif Pro', 'Noto Serif', serif
+}
+.img8{
+  
+    margin: 20px 0px 0px 0px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 850px;  
+    
+}
+
+@media screen and (max-width:1100px) {
+        
+    .txt5{
+        padding: 20px;
+        
+    }
+    .img8{
+            flex-direction: column;
+            margin: 40px 50% 0px 0px;
+
+        }
+        .tx5 p{
+            font-size: 25px;
+            text-align: center;
+            
+        }
+       
+}
+@media screen and (max-width:600px) {
+    
+    .tx5{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+
+.to{
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    /* border: 1px solid black; */
+    font-family: 'Source Serif Pro', 'Noto Serif', serif !;
+    font-weight: 500;
+}
+.btn5{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(last.png );
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -15px;
+    
+}
+
+.btn5 button{
+    
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #1865f2;
+    color: white;
+
+    border-radius: 5px;
+    border: none;
+    
+}
+@media screen and (max-width:700px) {
+    .to{
+        font-size: 30px;
+        text-align:center;
+        padding: 0px 100px;
+        line-height: 30px;
+        
+    }
+}
+
+
+
+
+
+
+
+ 
+.sup{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.allimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0px 50px 40px 50px;
+    
+}
+.imgs img{
+    width: 250px;
+    height: 50px;
+    margin: 20px 0px;
+} 
+
+.allimgs2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 50px 0px 50px;
+    justify-content: center;
+    /* align-items: center; */
+}
+.imgs7{
+    width:220px ;
+    height: 50px;
+}
+
+
+.support{
+    background-color:rgb(238, 234, 234) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sup p{
+    margin-bottom: 70px;
+    font-family: 'Source Serif Pro', 'Noto Serif', serif;
+    font-size: 32px;
+}
+@media screen and (max-width:700px){
+    .allimg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .allimgs2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgs img{
+        width: 160px;
+        height: 30px;
+    }
+    .sup p{
+        font-size: 40px;
+    }
+}
+
+
+
+
+.lik{
+    background-color: #0b2149;
+   padding-bottom: 40px;
+    
+}
+.fr{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: #8295BA;
+    width: 100%;
+
+    
+}
+
+.fr a{
+    color: white;
+}
+.ab{
+    padding-bottom: 20px;
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+    font-size: 12px;
+}
+.pr{
+    color: #8295BA;
+    padding-bottom: 15px;
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+    font-size: 12px;
+}
+.cd{
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+    font-size: 12px;
+}
+.i{
+margin-top: 100px;
+}
+.fs{
+    font-size: 12px;
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+   color:#8295BA ;
+}
+.coun img{
+    width: 13px;
+    height: 12px;
+    
+}
+.im{
+    margin-left: 5px;
+    color: white;
+}
+.mission p{
+    line-height: 30px;
+    margin-bottom: 30px;
+
+   
+}
+.mission{
+    font-size: 24px;
+     width: 40%;
+}
+
+
+
+@media screen and (max-width:700px) {
+     .fr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+     }   
+     .im{
+        padding-top: 50px;
+     }
+     .cour{
+        padding-top: 50px;
+     }
+     .cont{
+        padding-top: 50px;
+     }
+     .fs{
+    
+        text-align: center;
+        padding-top: 70px;
+     }
+   
+    
+}
+
+
+
+
+
+.footer{
+    background-color: #0b2149;
+    color:#8295BA;
+    font-size: 12px;
+    font-family:Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif ;
+    
+}
+.trs ul{
+    display: flex;
+    
+    
+
+}
+.trs li{
+    list-style: none;
+    padding-left: 10px;
+    color: white;
+}
+.co{
+    display: flex;
+    justify-content: space-between;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
